@@ -3,7 +3,10 @@ import java.util.Map;
 
 public class Welcome {
     public static String greet(String language) {
+        // Create a new HashMap to store language-greeting pairs
         Map<String, String> langMap = new HashMap<>();
+
+        // Populate the language database with key-value pairs
         langMap.put("english", "Welcome");
         langMap.put("czech", "Vitejte");
         langMap.put("danish", "Velkomst");
@@ -22,10 +25,13 @@ public class Welcome {
         langMap.put("swedish", "Valkommen");
         langMap.put("welsh", "Croeso");
 
+        // Check if the provided language is not null and exists in the language database
         if (language != null && langMap.containsKey(language.toLowerCase())) {
+            // Return the corresponding greeting for the language
             return langMap.get(language.toLowerCase());
         } else {
-            return "Welcome"; // Default greeting in case of invalid input or language not found
+            // Return the default greeting ("Welcome") in case of invalid input or language not found
+            return "Welcome";
         }
     }
 }
