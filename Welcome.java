@@ -35,3 +35,5 @@ public class Welcome {
         }
     }
 }
+
+// Java is not as easy as I thoght It would  be, God damn...
