@@ -8,6 +8,7 @@ public class CmdLineAreaOfTriangle {
         /*Apparently when you do the code like this you input numbers as strings
          * then you change it into a double or an integer
          * According to lecturer this only works on Cmd Lines
+         * We'll try it later for now we'll work on some other things
          */
         height = Double.parseDouble(args[1]);
         // Same goes for this line
