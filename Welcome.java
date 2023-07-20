@@ -34,6 +34,9 @@ public class Welcome {
             return "Welcome";
         }
     }
+    public static void main(String[] args){
+        System.out.println(greet("spanish"));
+    }
 }
 
 // Java is not as easy as I thoght It would  be, God damn...
