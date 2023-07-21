@@ -9,8 +9,6 @@ public class JavaMidsem {
             {1, 2, 3},
             {4, 5, 6}
         };
-
-        // Third Array (4 rows x 2 columns)
         int[][] T = {
             {1, 2},
             {3, 4},
@@ -22,8 +20,6 @@ public class JavaMidsem {
             {4, 5, 6},
             {7, 8, 9}
         };
-
-        // Fifth Array (3 rows x 5 columns)
         int[][] FT = {
             {1, 2, 3, 4, 5},
             {6, 7, 8, 9, 10},
@@ -38,6 +34,12 @@ public class JavaMidsem {
         double average = (double) (sumF + sumS + sumT + sumFH + sumFT) / totalElements;
 
         int totalSum = sumF + sumS + sumT + sumFT + sumFH;
+        System.out.println("Sum of elements in array F:  " + sumF);
+        System.out.println("Sum of elements in array S:  " + sumS);
+        System.out.println("Sum of elements in array T:  " + sumT);
+        System.out.println("Sum of elements in array FT:  " + sumFT);
+        System.out.println("Sum of elements in array FH:  " + sumFH);
+
         System.out.println("Total sum of all arrays: " + totalSum);
         System.out.println("The average of all arrays: " + average);
        
