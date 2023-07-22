@@ -5,4 +5,4 @@ public class Kata {
       return length * width * height;
     }
     
-  }
+  }// The Day is over
