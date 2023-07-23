@@ -3,10 +3,7 @@ import java.util.Map;
 
 public class Welcome {
     public static String greet(String language) {
-        // Create a new HashMap to store language-greeting pairs
         Map<String, String> langMap = new HashMap<>();
-
-        // Populate the language database with key-value pairs
         langMap.put("english", "Welcome");
         langMap.put("czech", "Vitejte");
         langMap.put("danish", "Velkomst");

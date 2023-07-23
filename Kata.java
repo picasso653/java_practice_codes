@@ -1,8 +1,9 @@
 public class Kata {
 
-    public static double getVolumeOfCuboid(final double length, final double width, final double height) {
-      // Your code here
-      return length * width * height;
-    }
-    
-  }// The Day is over
+  public static double getVolumeOfCuboid(final double length, 
+  final double width,
+   final double height) {
+    return length * width * height;
+  }
+
+}
